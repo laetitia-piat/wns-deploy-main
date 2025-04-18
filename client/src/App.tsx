@@ -38,7 +38,7 @@ function App() {
         <AddWilder />
       </Container>
       <Container>
-        <h2>Wilders TEST BIS</h2>
+        <h2>Wilders TEST BIS TER</h2>
         <CardRow>
           {data?.wilders.map((wilder) => (
             <Wilder key={wilder._id} {...wilder} />
@@ -47,7 +47,7 @@ function App() {
       </Container>
       <Footer>
         <Container>
-          <p>&copy; 2020 Wild Code School</p>
+          <p>&copy; 2025 Wild Code School</p>
         </Container>
       </Footer>
     </div>
